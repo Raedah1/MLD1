@@ -69,4 +69,4 @@ st.subheader("Press predict to see the results")
 
 if st.button("Predict"):
     prediction = ds13_model.predict(df2)
-    st.success("The estimated price of your car is €{}. ".format(int(prediction[0])))
+    st.success("The predicted price of your car is €{}. ".format(int(prediction[0])))
